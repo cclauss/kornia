@@ -185,30 +185,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../get-started/training.html">Training API (experimental)</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://docs.luxonis.com/en/latest/pages/tutorials/creating-custom-nn-models/#kornia">OpenCV AI Kit</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/intro.html">Computer Vision Algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/face_detection.html">Face Detection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_augmentations.html">Image Augmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_classification.html">Image Classification</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_matching.html">Image Matching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_stitching.html">Image Stitching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_registration.html">Image Registration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/semantic_segmentation.html">Semantic segmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_denoising.html">Image Denoising</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/yunet.html">YuNet</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/vit.html">Vision Transformer (ViT)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/vit_mobile.html">MobileViT</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/loftr.html">LoFTR (matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/defmo.html">DeFMO (video)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/hardnet.html">Hardnet (descriptor)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/affnet.html">Affnet (detection)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/sold2.html">SOLD2 (Line detection and matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/dexined.html">Dexined (edge detection)</a></li>
-</ul>
 <p class="caption" role="heading"><span class="caption-text">API REFERENCE</span></p>
 <ul>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../augmentation.html">kornia.augmentation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -226,6 +202,7 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../geometry.html">kornia.geometry</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.bbox.html">kornia.geometry.bbox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.boxes.html">kornia.geometry.boxes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../geometry.keypoints.html">kornia.geometry.keypoints</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.calibration.html">kornia.geometry.calibration</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../../geometry.camera.html">kornia.geometry.camera</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../geometry.camera.pinhole.html">Pinhole Camera</a></li>
@@ -254,6 +231,31 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../testing.html">kornia.testing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../utils.html">kornia.utils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../x.html">kornia.x</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/intro.html">Computer Vision Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/face_detection.html">Face Detection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_augmentations.html">Image Augmentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_classification.html">Image Classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_matching.html">Image Matching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_stitching.html">Image Stitching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_registration.html">Image Registration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_denoising.html">Image Denoising</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/semantic_segmentation.html">Semantic segmentation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/yunet.html">YuNet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/vit.html">Vision Transformer (ViT)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/vit_mobile.html">MobileViT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/loftr.html">LoFTR (matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/defmo.html">DeFMO (video)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/hardnet.html">Hardnet (descriptor)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/affnet.html">Affnet (detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/sold2.html">SOLD2 (Line detection and matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/dexined.html">Dexined (edge detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/segment_anything.html">Segment Anything (SAM)</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">SUPPORT</span></p>
 <ul>
@@ -333,29 +335,29 @@
 
 <span class="k">def</span> <span class="nf">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">|</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]:</span>
     <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
-        <span class="n">kx</span> <span class="o">=</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">kernel_size</span>
+        <span class="n">ky</span> <span class="o">=</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">kernel_size</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">KORNIA_CHECK</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;2D Kernel size should have a length of 2.&#39;</span><span class="p">)</span>
-        <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">kernel_size</span>
+        <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">kernel_size</span>
 
-    <span class="n">kx</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">kx</span><span class="p">)</span>
     <span class="n">ky</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">ky</span><span class="p">)</span>
+    <span class="n">kx</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">kx</span><span class="p">)</span>
 
-    <span class="k">return</span> <span class="p">(</span><span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">ky</span><span class="p">,</span> <span class="n">kx</span><span class="p">)</span>
 
 
 <span class="k">def</span> <span class="nf">_unpack_3d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">|</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]:</span>
     <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
-        <span class="n">kx</span> <span class="o">=</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">kz</span> <span class="o">=</span> <span class="n">kernel_size</span>
+        <span class="n">kz</span> <span class="o">=</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">kernel_size</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="n">KORNIA_CHECK</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;3D Kernel size should have a length of 3.&#39;</span><span class="p">)</span>
-        <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">,</span> <span class="n">kz</span> <span class="o">=</span> <span class="n">kernel_size</span>
+        <span class="n">kz</span><span class="p">,</span> <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">kernel_size</span>
 
-    <span class="n">kx</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">kx</span><span class="p">)</span>
-    <span class="n">ky</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">ky</span><span class="p">)</span>
     <span class="n">kz</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">kz</span><span class="p">)</span>
+    <span class="n">ky</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">ky</span><span class="p">)</span>
+    <span class="n">kx</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">kx</span><span class="p">)</span>
 
-    <span class="k">return</span> <span class="p">(</span><span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">,</span> <span class="n">kz</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">kz</span><span class="p">,</span> <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span><span class="p">)</span>
 
 
 <span class="k">def</span> <span class="nf">normalize_kernel2d</span><span class="p">(</span><span class="nb">input</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
@@ -568,13 +570,37 @@
     <span class="k">return</span> <span class="n">filter_1d</span>
 
 
+<span class="k">def</span> <span class="nf">get_box_kernel1d</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">device</span><span class="p">:</span> <span class="n">Device</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dtype</span><span class="p">:</span> <span class="n">Dtype</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
+<span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Utility function that returns a 1-D box filter.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        kernel_size: the size of the kernel.</span>
+<span class="sd">        device: the desired device of returned tensor.</span>
+<span class="sd">        dtype: the desired data type of returned tensor.</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        A tensor with shape :math:`(1, \text{kernel\_size})`, filled with the value</span>
+<span class="sd">        :math:`\frac{1}{\text{kernel\_size}}`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">scale</span> <span class="o">=</span> <span class="n">tensor</span><span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="n">kernel_size</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">scale</span><span class="o">.</span><span class="n">expand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">kernel_size</span><span class="p">)</span>
+
+
 <span class="k">def</span> <span class="nf">get_box_kernel2d</span><span class="p">(</span>
     <span class="n">kernel_size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">|</span> <span class="nb">int</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">device</span><span class="p">:</span> <span class="n">Device</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dtype</span><span class="p">:</span> <span class="n">Dtype</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
-<span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Utility function that returns a box filter.&quot;&quot;&quot;</span>
-    <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
-    <span class="n">scale</span> <span class="o">=</span> <span class="n">tensor</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span> <span class="o">/</span> <span class="n">tensor</span><span class="p">([</span><span class="n">kx</span> <span class="o">*</span> <span class="n">ky</span><span class="p">],</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">scale</span><span class="o">.</span><span class="n">expand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">)</span>
+<span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Utility function that returns a 2-D box filter.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        kernel_size: the size of the kernel.</span>
+<span class="sd">        device: the desired device of returned tensor.</span>
+<span class="sd">        dtype: the desired data type of returned tensor.</span>
+<span class="sd">    Returns:</span>
+<span class="sd">        A tensor with shape :math:`(1, \text{kernel\_size}[0], \text{kernel\_size}[1])`,</span>
+<span class="sd">        filled with the value :math:`\frac{1}{\text{kernel\_size}[0] \times \text{kernel\_size}[1]}`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
+    <span class="n">scale</span> <span class="o">=</span> <span class="n">tensor</span><span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="p">(</span><span class="n">kx</span> <span class="o">*</span> <span class="n">ky</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">scale</span><span class="o">.</span><span class="n">expand</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span><span class="p">)</span>
 
 
 <span class="k">def</span> <span class="nf">get_binary_kernel2d</span><span class="p">(</span>
@@ -586,14 +612,14 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: add default dtype as None when kornia relies on torch &gt; 1.12</span>
 
-    <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">window_size</span><span class="p">)</span>
+    <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">window_size</span><span class="p">)</span>
 
     <span class="n">window_range</span> <span class="o">=</span> <span class="n">kx</span> <span class="o">*</span> <span class="n">ky</span>
 
     <span class="n">kernel</span> <span class="o">=</span> <span class="n">zeros</span><span class="p">((</span><span class="n">window_range</span><span class="p">,</span> <span class="n">window_range</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
     <span class="n">idx</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">window_range</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
     <span class="n">kernel</span><span class="p">[</span><span class="n">idx</span><span class="p">,</span> <span class="n">idx</span><span class="p">]</span> <span class="o">+=</span> <span class="mf">1.0</span>
-    <span class="k">return</span> <span class="n">kernel</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="n">window_range</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">kernel</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="n">window_range</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span><span class="p">)</span>
 
 
 <span class="k">def</span> <span class="nf">get_sobel_kernel_3x3</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">device</span><span class="p">:</span> <span class="n">Device</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dtype</span><span class="p">:</span> <span class="n">Dtype</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
@@ -888,8 +914,8 @@
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Function that returns Gaussian filter matrix coefficients.</span>
 
 <span class="sd">    Args:</span>
-<span class="sd">        kernel_size: filter sizes in the x and y direction. Sizes should be odd and positive.</span>
-<span class="sd">        sigma: gaussian standard deviation in the x and y.</span>
+<span class="sd">        kernel_size: filter sizes in the y and x direction. Sizes should be odd and positive.</span>
+<span class="sd">        sigma: gaussian standard deviation in the y and x.</span>
 <span class="sd">        force_even: overrides requirement for odd kernel size.</span>
 <span class="sd">        device: This value will be used if sigma is a float. Device desired to compute.</span>
 <span class="sd">        dtype: This value will be used if sigma is a float. Dtype desired for compute.</span>
@@ -924,13 +950,13 @@
     <span class="n">KORNIA_CHECK_IS_TENSOR</span><span class="p">(</span><span class="n">sigma</span><span class="p">)</span>
     <span class="n">KORNIA_CHECK_SHAPE</span><span class="p">(</span><span class="n">sigma</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;B&quot;</span><span class="p">,</span> <span class="s2">&quot;2&quot;</span><span class="p">])</span>
 
-    <span class="n">ksize_x</span><span class="p">,</span> <span class="n">ksize_y</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
-    <span class="n">sigma_x</span><span class="p">,</span> <span class="n">sigma_y</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
+    <span class="n">ksize_y</span><span class="p">,</span> <span class="n">ksize_x</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
+    <span class="n">sigma_y</span><span class="p">,</span> <span class="n">sigma_x</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
 
-    <span class="n">kernel_x</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_x</span><span class="p">,</span> <span class="n">sigma_x</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)[</span><span class="o">...</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
     <span class="n">kernel_y</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_y</span><span class="p">,</span> <span class="n">sigma_y</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)[</span><span class="o">...</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
+    <span class="n">kernel_x</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_x</span><span class="p">,</span> <span class="n">sigma_x</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)[</span><span class="o">...</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
 
-    <span class="k">return</span> <span class="n">torch</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">kernel_x</span><span class="p">,</span> <span class="n">kernel_y</span><span class="o">.</span><span class="n">transpose</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span></div>
+    <span class="k">return</span> <span class="n">kernel_y</span> <span class="o">*</span> <span class="n">kernel_x</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ksize_x</span><span class="p">)</span></div>
 
 
 <span class="k">def</span> <span class="nf">get_gaussian_kernel3d</span><span class="p">(</span>
@@ -944,8 +970,8 @@
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Function that returns Gaussian filter matrix coefficients.</span>
 
 <span class="sd">    Args:</span>
-<span class="sd">        kernel_size: filter sizes in the x, y and z direction. Sizes should be odd and positive.</span>
-<span class="sd">        sigma: gaussian standard deviation in the x, y and z direction.</span>
+<span class="sd">        kernel_size: filter sizes in the z, y and x direction. Sizes should be odd and positive.</span>
+<span class="sd">        sigma: gaussian standard deviation in the z, y and x direction.</span>
 <span class="sd">        force_even: overrides requirement for odd kernel size.</span>
 <span class="sd">        device: This value will be used if sigma is a float. Device desired to compute.</span>
 <span class="sd">        dtype: This value will be used if sigma is a float. Dtype desired for compute.</span>
@@ -982,17 +1008,14 @@
     <span class="n">KORNIA_CHECK_IS_TENSOR</span><span class="p">(</span><span class="n">sigma</span><span class="p">)</span>
     <span class="n">KORNIA_CHECK_SHAPE</span><span class="p">(</span><span class="n">sigma</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;B&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">])</span>
 
-    <span class="n">ksize_x</span><span class="p">,</span> <span class="n">ksize_y</span><span class="p">,</span> <span class="n">ksize_z</span> <span class="o">=</span> <span class="n">_unpack_3d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
-    <span class="n">sigma_x</span><span class="p">,</span> <span class="n">sigma_y</span><span class="p">,</span> <span class="n">sigma_z</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
+    <span class="n">ksize_z</span><span class="p">,</span> <span class="n">ksize_y</span><span class="p">,</span> <span class="n">ksize_x</span> <span class="o">=</span> <span class="n">_unpack_3d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
+    <span class="n">sigma_z</span><span class="p">,</span> <span class="n">sigma_y</span><span class="p">,</span> <span class="n">sigma_x</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span> <span class="n">sigma</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span>
 
-    <span class="n">kernel_x</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_x</span><span class="p">,</span> <span class="n">sigma_x</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
-    <span class="n">kernel_y</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_y</span><span class="p">,</span> <span class="n">sigma_y</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
     <span class="n">kernel_z</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_z</span><span class="p">,</span> <span class="n">sigma_z</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="n">kernel_y</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_y</span><span class="p">,</span> <span class="n">sigma_y</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="n">kernel_x</span> <span class="o">=</span> <span class="n">get_gaussian_kernel1d</span><span class="p">(</span><span class="n">ksize_x</span><span class="p">,</span> <span class="n">sigma_x</span><span class="p">,</span> <span class="n">force_even</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
 
-    <span class="n">kernel_2d</span> <span class="o">=</span> <span class="n">kernel_x</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span> <span class="o">@</span> <span class="n">kernel_y</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span><span class="o">.</span><span class="n">transpose</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-    <span class="n">kernel_3d</span> <span class="o">=</span> <span class="p">(</span><span class="n">kernel_z</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">,</span> <span class="p">:,</span> <span class="kc">None</span><span class="p">]</span> <span class="o">@</span> <span class="p">(</span><span class="n">kernel_2d</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="kc">None</span><span class="p">]</span><span class="o">.</span><span class="n">transpose</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)))</span><span class="o">.</span><span class="n">transpose</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">kernel_3d</span>
+    <span class="k">return</span> <span class="n">kernel_z</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">ksize_z</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">kernel_y</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ksize_y</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">kernel_x</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ksize_x</span><span class="p">)</span>
 
 
 <div class="viewcode-block" id="get_laplacian_kernel1d"><a class="viewcode-back" href="../../../filters.html#kornia.filters.get_laplacian_kernel1d">[docs]</a><span class="k">def</span> <span class="nf">get_laplacian_kernel1d</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">device</span><span class="p">:</span> <span class="n">Device</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">dtype</span><span class="p">:</span> <span class="n">Dtype</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
@@ -1052,14 +1075,14 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="c1"># TODO: add default dtype as None when kornia relies on torch &gt; 1.12</span>
 
-    <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
-    <span class="n">_check_kernel_size</span><span class="p">((</span><span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">))</span>
+    <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
+    <span class="n">_check_kernel_size</span><span class="p">((</span><span class="n">ky</span><span class="p">,</span> <span class="n">kx</span><span class="p">))</span>
 
-    <span class="n">kernel</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="n">kx</span><span class="p">,</span> <span class="n">ky</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
+    <span class="n">kernel</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="n">ky</span><span class="p">,</span> <span class="n">kx</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
     <span class="n">mid_x</span> <span class="o">=</span> <span class="n">kx</span> <span class="o">//</span> <span class="mi">2</span>
     <span class="n">mid_y</span> <span class="o">=</span> <span class="n">ky</span> <span class="o">//</span> <span class="mi">2</span>
 
-    <span class="n">kernel</span><span class="p">[</span><span class="n">mid_x</span><span class="p">,</span> <span class="n">mid_y</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">kernel</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+    <span class="n">kernel</span><span class="p">[</span><span class="n">mid_y</span><span class="p">,</span> <span class="n">mid_x</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">kernel</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">kernel</span></div>
 
 
@@ -1092,11 +1115,11 @@
 <span class="sd">            [3., 9., 9., 3.],</span>
 <span class="sd">            [1., 3., 3., 1.]])</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">kx</span><span class="p">,</span> <span class="n">ky</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
+    <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
     <span class="n">ax</span> <span class="o">=</span> <span class="n">get_pascal_kernel_1d</span><span class="p">(</span><span class="n">kx</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
     <span class="n">ay</span> <span class="o">=</span> <span class="n">get_pascal_kernel_1d</span><span class="p">(</span><span class="n">ky</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">)</span>
 
-    <span class="n">filt</span> <span class="o">=</span> <span class="n">ax</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">]</span> <span class="o">*</span> <span class="n">ay</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="p">:]</span>
+    <span class="n">filt</span> <span class="o">=</span> <span class="n">ay</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">]</span> <span class="o">*</span> <span class="n">ax</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="p">:]</span>
     <span class="k">if</span> <span class="n">norm</span><span class="p">:</span>
         <span class="n">filt</span> <span class="o">=</span> <span class="n">filt</span> <span class="o">/</span> <span class="n">torch</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">filt</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">filt</span>

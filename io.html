@@ -186,30 +186,6 @@
 <li class="toctree-l1"><a class="reference internal" href="get-started/training.html">Training API (experimental)</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://docs.luxonis.com/en/latest/pages/tutorials/creating-custom-nn-models/#kornia">OpenCV AI Kit</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="applications/intro.html">Computer Vision Algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/face_detection.html">Face Detection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/image_augmentations.html">Image Augmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/image_classification.html">Image Classification</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/image_matching.html">Image Matching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/image_stitching.html">Image Stitching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/image_registration.html">Image Registration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/semantic_segmentation.html">Semantic segmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/image_denoising.html">Image Denoising</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="models/yunet.html">YuNet</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/vit.html">Vision Transformer (ViT)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/vit_mobile.html">MobileViT</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/loftr.html">LoFTR (matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/defmo.html">DeFMO (video)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/hardnet.html">Hardnet (descriptor)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/affnet.html">Affnet (detection)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/sold2.html">SOLD2 (Line detection and matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="models/dexined.html">Dexined (edge detection)</a></li>
-</ul>
 <p class="caption" role="heading"><span class="caption-text">API REFERENCE</span></p>
 <ul class="current">
 <li class="toctree-l1 has-children"><a class="reference internal" href="augmentation.html">kornia.augmentation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -227,6 +203,7 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="geometry.html">kornia.geometry</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="geometry.bbox.html">kornia.geometry.bbox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="geometry.boxes.html">kornia.geometry.boxes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="geometry.keypoints.html">kornia.geometry.keypoints</a></li>
 <li class="toctree-l2"><a class="reference internal" href="geometry.calibration.html">kornia.geometry.calibration</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="geometry.camera.html">kornia.geometry.camera</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="geometry.camera.pinhole.html">Pinhole Camera</a></li>
@@ -255,6 +232,31 @@
 <li class="toctree-l1"><a class="reference internal" href="testing.html">kornia.testing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="utils.html">kornia.utils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="x.html">kornia.x</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="applications/intro.html">Computer Vision Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/face_detection.html">Face Detection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/image_augmentations.html">Image Augmentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/image_classification.html">Image Classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/image_matching.html">Image Matching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/image_stitching.html">Image Stitching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/image_registration.html">Image Registration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/image_denoising.html">Image Denoising</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications/semantic_segmentation.html">Semantic segmentation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="models/yunet.html">YuNet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/vit.html">Vision Transformer (ViT)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/vit_mobile.html">MobileViT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/loftr.html">LoFTR (matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/defmo.html">DeFMO (video)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/hardnet.html">Hardnet (descriptor)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/affnet.html">Affnet (detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/sold2.html">SOLD2 (Line detection and matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/dexined.html">Dexined (edge detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models/segment_anything.html">Segment Anything (SAM)</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">SUPPORT</span></p>
 <ul>
@@ -324,21 +326,22 @@ Contact us or sponsor the project for more support (mac, win, rust, c++, video a
 <p>The package needs at least PyTorch 1.10.0 installed.</p>
 </div>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">kornia</span> <span class="k">as</span> <span class="nn">K</span>
+<span class="kn">from</span> <span class="nn">kornia.io</span> <span class="kn">import</span> <span class="n">ImageLoadType</span>
 <span class="kn">from</span> <span class="nn">kornia.core</span> <span class="kn">import</span> <span class="n">Tensor</span>
 
-<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageType</span><span class="o">.</span><span class="n">UNCHANGED</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cuda&quot;</span><span class="p">)</span>
+<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageLoadType</span><span class="o">.</span><span class="n">UNCHANGED</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cuda&quot;</span><span class="p">)</span>
 <span class="c1"># will load CxHxW / in the original format in &quot;cuda&quot;</span>
 
-<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageType</span><span class="o">.</span><span class="n">RGB8</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cpu&quot;</span><span class="p">)</span>
+<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageLoadType</span><span class="o">.</span><span class="n">RGB8</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cpu&quot;</span><span class="p">)</span>
 <span class="c1"># will load 3xHxW / in torch.uint in range [0,255] in &quot;cpu&quot;</span>
 
-<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageType</span><span class="o">.</span><span class="n">GRAY8</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cuda&quot;</span><span class="p">)</span>
+<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageLoadType</span><span class="o">.</span><span class="n">GRAY8</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cuda&quot;</span><span class="p">)</span>
 <span class="c1"># will load 1xHxW / in torch.uint8 in range [0,255] in &quot;cuda&quot;</span>
 
-<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageType</span><span class="o">.</span><span class="n">GRAY32</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cpu&quot;</span><span class="p">)</span>
+<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageLoadType</span><span class="o">.</span><span class="n">GRAY32</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cpu&quot;</span><span class="p">)</span>
 <span class="c1"># will load 1xHxW / in torch.float32 in range [0,1] in &quot;cpu&quot;</span>
 
-<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageType</span><span class="o">.</span><span class="n">RGB32</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cuda&quot;</span><span class="p">)</span>
+<span class="n">img</span><span class="p">:</span> <span class="n">Tensor</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">load_image</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">ImageLoadType</span><span class="o">.</span><span class="n">RGB32</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cuda&quot;</span><span class="p">)</span>
 <span class="c1"># will load 3xHxW / in torch.float32 in range [0,1] in &quot;cuda&quot;</span>
 </pre></div>
 </div>
@@ -351,7 +354,7 @@ Contact us or sponsor the project for more support (mac, win, rust, c++, video a
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>path_file</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.11)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Path to a valid image file.</p></li>
 <li><p><strong>desired_type</strong> (<a class="reference internal" href="#kornia.io.ImageLoadType" title="kornia.io.io.ImageLoadType"><code class="xref py py-class docutils literal notranslate"><span class="pre">ImageLoadType</span></code></a>) – the desired image type, defined by color space and dtype.</p></li>
-<li><p><strong>device</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.11)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – the device where you want to get your image placed.
+<li><p><strong>device</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.11)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.11)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://pytorch.org/docs/stable/tensor_attributes.html#torch.device" title="(in PyTorch v2.0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">device</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.11)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a>], <em>optional</em>) – the device where you want to get your image placed.
 Default:  <code class="code docutils literal notranslate"><span class="pre">'cpu'</span></code></p></li>
 </ul>
 </dd>

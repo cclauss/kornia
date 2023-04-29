@@ -185,30 +185,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../get-started/training.html">Training API (experimental)</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://docs.luxonis.com/en/latest/pages/tutorials/creating-custom-nn-models/#kornia">OpenCV AI Kit</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/intro.html">Computer Vision Algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/face_detection.html">Face Detection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_augmentations.html">Image Augmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_classification.html">Image Classification</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_matching.html">Image Matching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_stitching.html">Image Stitching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_registration.html">Image Registration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/semantic_segmentation.html">Semantic segmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_denoising.html">Image Denoising</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/yunet.html">YuNet</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/vit.html">Vision Transformer (ViT)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/vit_mobile.html">MobileViT</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/loftr.html">LoFTR (matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/defmo.html">DeFMO (video)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/hardnet.html">Hardnet (descriptor)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/affnet.html">Affnet (detection)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/sold2.html">SOLD2 (Line detection and matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/dexined.html">Dexined (edge detection)</a></li>
-</ul>
 <p class="caption" role="heading"><span class="caption-text">API REFERENCE</span></p>
 <ul>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../augmentation.html">kornia.augmentation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -226,6 +202,7 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../geometry.html">kornia.geometry</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.bbox.html">kornia.geometry.bbox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.boxes.html">kornia.geometry.boxes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../geometry.keypoints.html">kornia.geometry.keypoints</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.calibration.html">kornia.geometry.calibration</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../../geometry.camera.html">kornia.geometry.camera</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../geometry.camera.pinhole.html">Pinhole Camera</a></li>
@@ -254,6 +231,31 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../testing.html">kornia.testing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../utils.html">kornia.utils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../x.html">kornia.x</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/intro.html">Computer Vision Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/face_detection.html">Face Detection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_augmentations.html">Image Augmentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_classification.html">Image Classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_matching.html">Image Matching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_stitching.html">Image Stitching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_registration.html">Image Registration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_denoising.html">Image Denoising</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/semantic_segmentation.html">Semantic segmentation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/yunet.html">YuNet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/vit.html">Vision Transformer (ViT)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/vit_mobile.html">MobileViT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/loftr.html">LoFTR (matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/defmo.html">DeFMO (video)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/hardnet.html">Hardnet (descriptor)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/affnet.html">Affnet (detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/sold2.html">SOLD2 (Line detection and matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/dexined.html">Dexined (edge detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/segment_anything.html">Segment Anything (SAM)</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">SUPPORT</span></p>
 <ul>
@@ -309,13 +311,14 @@
 <span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
 
 <span class="kn">from</span> <span class="nn">kornia.core</span> <span class="kn">import</span> <span class="n">Module</span><span class="p">,</span> <span class="n">Tensor</span>
+<span class="kn">from</span> <span class="nn">kornia.core.check</span> <span class="kn">import</span> <span class="n">KORNIA_CHECK_IS_TENSOR</span>
 
-<span class="kn">from</span> <span class="nn">.filter</span> <span class="kn">import</span> <span class="n">filter2d</span>
-<span class="kn">from</span> <span class="nn">.kernels</span> <span class="kn">import</span> <span class="n">get_box_kernel2d</span><span class="p">,</span> <span class="n">normalize_kernel2d</span>
+<span class="kn">from</span> <span class="nn">.filter</span> <span class="kn">import</span> <span class="n">filter2d</span><span class="p">,</span> <span class="n">filter2d_separable</span>
+<span class="kn">from</span> <span class="nn">.kernels</span> <span class="kn">import</span> <span class="n">_unpack_2d_ks</span><span class="p">,</span> <span class="n">get_box_kernel1d</span><span class="p">,</span> <span class="n">get_box_kernel2d</span>
 
 
 <div class="viewcode-block" id="box_blur"><a class="viewcode-back" href="../../../filters.html#kornia.filters.box_blur">[docs]</a><span class="k">def</span> <span class="nf">box_blur</span><span class="p">(</span>
-    <span class="nb">input</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">,</span> <span class="n">kernel_size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">|</span> <span class="nb">int</span><span class="p">,</span> <span class="n">border_type</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;reflect&#39;</span><span class="p">,</span> <span class="n">normalized</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="nb">input</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">,</span> <span class="n">kernel_size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">|</span> <span class="nb">int</span><span class="p">,</span> <span class="n">border_type</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;reflect&#39;</span><span class="p">,</span> <span class="n">separable</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Blur an image using the box filter.</span>
 
@@ -337,7 +340,7 @@
 <span class="sd">        kernel_size: the blurring kernel size.</span>
 <span class="sd">        border_type: the padding mode to be applied before convolving.</span>
 <span class="sd">          The expected modes are: ``&#39;constant&#39;``, ``&#39;reflect&#39;``, ``&#39;replicate&#39;`` or ``&#39;circular&#39;``.</span>
-<span class="sd">        normalized: if True, L1 norm of the kernel is set to 1.</span>
+<span class="sd">        separable: run as composition of two 1d-convolutions.</span>
 
 <span class="sd">    Returns:</span>
 <span class="sd">        the blurred tensor with shape :math:`(B,C,H,W)`.</span>
@@ -352,10 +355,18 @@
 <span class="sd">        &gt;&gt;&gt; output.shape</span>
 <span class="sd">        torch.Size([2, 4, 5, 7])</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">kernel</span> <span class="o">=</span> <span class="n">get_box_kernel2d</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">normalized</span><span class="p">:</span>
-        <span class="n">kernel</span> <span class="o">=</span> <span class="n">normalize_kernel2d</span><span class="p">(</span><span class="n">kernel</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">filter2d</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">kernel</span><span class="p">,</span> <span class="n">border_type</span><span class="p">)</span></div>
+    <span class="n">KORNIA_CHECK_IS_TENSOR</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">separable</span><span class="p">:</span>
+        <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">)</span>
+        <span class="n">kernel_y</span> <span class="o">=</span> <span class="n">get_box_kernel1d</span><span class="p">(</span><span class="n">ky</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+        <span class="n">kernel_x</span> <span class="o">=</span> <span class="n">get_box_kernel1d</span><span class="p">(</span><span class="n">kx</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="n">filter2d_separable</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">kernel_x</span><span class="p">,</span> <span class="n">kernel_y</span><span class="p">,</span> <span class="n">border_type</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">kernel</span> <span class="o">=</span> <span class="n">get_box_kernel2d</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">device</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">input</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="n">filter2d</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">kernel</span><span class="p">,</span> <span class="n">border_type</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">out</span></div>
 
 
 <div class="viewcode-block" id="BoxBlur"><a class="viewcode-back" href="../../../filters.html#kornia.filters.BoxBlur">[docs]</a><span class="k">class</span> <span class="nc">BoxBlur</span><span class="p">(</span><span class="n">Module</span><span class="p">):</span>
@@ -377,7 +388,7 @@
 <span class="sd">        border_type: the padding mode to be applied before convolving.</span>
 <span class="sd">          The expected modes are: ``&#39;constant&#39;``, ``&#39;reflect&#39;``,</span>
 <span class="sd">          ``&#39;replicate&#39;`` or ``&#39;circular&#39;``. Default: ``&#39;reflect&#39;``.</span>
-<span class="sd">        normalized: if True, L1 norm of the kernel is set to 1.</span>
+<span class="sd">        separable: run as composition of two 1d-convolutions.</span>
 
 <span class="sd">    Returns:</span>
 <span class="sd">        the blurred input tensor.</span>
@@ -395,23 +406,36 @@
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
-        <span class="bp">self</span><span class="p">,</span> <span class="n">kernel_size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">|</span> <span class="nb">int</span><span class="p">,</span> <span class="n">border_type</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;reflect&#39;</span><span class="p">,</span> <span class="n">normalized</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">kernel_size</span><span class="p">:</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]</span> <span class="o">|</span> <span class="nb">int</span><span class="p">,</span> <span class="n">border_type</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;reflect&#39;</span><span class="p">,</span> <span class="n">separable</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span>
     <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">kernel_size</span> <span class="o">=</span> <span class="n">kernel_size</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">border_type</span> <span class="o">=</span> <span class="n">border_type</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">normalized</span> <span class="o">=</span> <span class="n">normalized</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">separable</span> <span class="o">=</span> <span class="n">separable</span>
+
+        <span class="k">if</span> <span class="n">separable</span><span class="p">:</span>
+            <span class="n">ky</span><span class="p">,</span> <span class="n">kx</span> <span class="o">=</span> <span class="n">_unpack_2d_ks</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">kernel_size</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">register_buffer</span><span class="p">(</span><span class="s2">&quot;kernel_y&quot;</span><span class="p">,</span> <span class="n">get_box_kernel1d</span><span class="p">(</span><span class="n">ky</span><span class="p">))</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">register_buffer</span><span class="p">(</span><span class="s2">&quot;kernel_x&quot;</span><span class="p">,</span> <span class="n">get_box_kernel1d</span><span class="p">(</span><span class="n">kx</span><span class="p">))</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">kernel_y</span><span class="p">:</span> <span class="n">Tensor</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">kernel_x</span><span class="p">:</span> <span class="n">Tensor</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">register_buffer</span><span class="p">(</span><span class="s2">&quot;kernel&quot;</span><span class="p">,</span> <span class="n">get_box_kernel2d</span><span class="p">(</span><span class="n">kernel_size</span><span class="p">))</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">kernel</span><span class="p">:</span> <span class="n">Tensor</span>
 
     <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="k">return</span> <span class="p">(</span>
             <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="si">}</span><span class="s2">&quot;</span>
             <span class="sa">f</span><span class="s2">&quot;(kernel_size=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">kernel_size</span><span class="si">}</span><span class="s2">, &quot;</span>
-            <span class="sa">f</span><span class="s2">&quot;normalized=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">normalized</span><span class="si">}</span><span class="s2">, &quot;</span>
-            <span class="sa">f</span><span class="s2">&quot;border_type=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">border_type</span><span class="si">}</span><span class="s2">)&quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;border_type=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">border_type</span><span class="si">}</span><span class="s2">, &quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;separable=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">separable</span><span class="si">}</span><span class="s2">)&quot;</span>
         <span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">box_blur</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">kernel_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">border_type</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">normalized</span><span class="p">)</span></div>
+        <span class="n">KORNIA_CHECK_IS_TENSOR</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">separable</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">filter2d_separable</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">kernel_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">kernel_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">border_type</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">filter2d</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">kernel</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">border_type</span><span class="p">)</span></div>
 </pre></div>
         </article>
       </div>

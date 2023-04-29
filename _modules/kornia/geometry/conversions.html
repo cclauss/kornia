@@ -185,30 +185,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../get-started/training.html">Training API (experimental)</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://docs.luxonis.com/en/latest/pages/tutorials/creating-custom-nn-models/#kornia">OpenCV AI Kit</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/intro.html">Computer Vision Algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/face_detection.html">Face Detection</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_augmentations.html">Image Augmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_classification.html">Image Classification</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_matching.html">Image Matching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_stitching.html">Image Stitching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_registration.html">Image Registration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/semantic_segmentation.html">Semantic segmentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_denoising.html">Image Denoising</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/yunet.html">YuNet</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/vit.html">Vision Transformer (ViT)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/vit_mobile.html">MobileViT</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/loftr.html">LoFTR (matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/defmo.html">DeFMO (video)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/hardnet.html">Hardnet (descriptor)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/affnet.html">Affnet (detection)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/sold2.html">SOLD2 (Line detection and matching)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../models/dexined.html">Dexined (edge detection)</a></li>
-</ul>
 <p class="caption" role="heading"><span class="caption-text">API REFERENCE</span></p>
 <ul>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../augmentation.html">kornia.augmentation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -226,6 +202,7 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../geometry.html">kornia.geometry</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.bbox.html">kornia.geometry.bbox</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.boxes.html">kornia.geometry.boxes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../geometry.keypoints.html">kornia.geometry.keypoints</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../geometry.calibration.html">kornia.geometry.calibration</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../../geometry.camera.html">kornia.geometry.camera</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../geometry.camera.pinhole.html">Pinhole Camera</a></li>
@@ -254,6 +231,31 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../testing.html">kornia.testing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../utils.html">kornia.utils</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../x.html">kornia.x</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA APPLICATIONS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/intro.html">Computer Vision Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/face_detection.html">Face Detection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_augmentations.html">Image Augmentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_classification.html">Image Classification</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_matching.html">Image Matching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_stitching.html">Image Stitching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_registration.html">Image Registration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/image_denoising.html">Image Denoising</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../applications/semantic_segmentation.html">Semantic segmentation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">KORNIA MODELS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/yunet.html">YuNet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/vit.html">Vision Transformer (ViT)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/vit_mobile.html">MobileViT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/loftr.html">LoFTR (matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/defmo.html">DeFMO (video)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/hardnet.html">Hardnet (descriptor)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/affnet.html">Affnet (detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/sold2.html">SOLD2 (Line detection and matching)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/dexined.html">Dexined (edge detection)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../models/segment_anything.html">Segment Anything (SAM)</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">SUPPORT</span></p>
 <ul>
@@ -317,7 +319,6 @@
 <span class="kn">from</span> <span class="nn">kornia.core</span> <span class="kn">import</span> <span class="n">Tensor</span><span class="p">,</span> <span class="n">concatenate</span><span class="p">,</span> <span class="n">pad</span><span class="p">,</span> <span class="n">stack</span><span class="p">,</span> <span class="n">tensor</span><span class="p">,</span> <span class="n">where</span>
 <span class="kn">from</span> <span class="nn">kornia.core.check</span> <span class="kn">import</span> <span class="n">KORNIA_CHECK</span><span class="p">,</span> <span class="n">KORNIA_CHECK_SHAPE</span>
 <span class="kn">from</span> <span class="nn">kornia.utils.helpers</span> <span class="kn">import</span> <span class="n">_torch_inverse_cast</span>
-<span class="kn">from</span> <span class="nn">kornia.utils.misc</span> <span class="kn">import</span> <span class="n">eye_like</span>
 
 <span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s2">&quot;rad2deg&quot;</span><span class="p">,</span>
@@ -645,10 +646,8 @@
     <span class="n">mask_pos</span> <span class="o">=</span> <span class="p">(</span><span class="n">mask</span><span class="p">)</span><span class="o">.</span><span class="n">type_as</span><span class="p">(</span><span class="n">theta2</span><span class="p">)</span>
     <span class="n">mask_neg</span> <span class="o">=</span> <span class="p">(</span><span class="o">~</span><span class="n">mask</span><span class="p">)</span><span class="o">.</span><span class="n">type_as</span><span class="p">(</span><span class="n">theta2</span><span class="p">)</span>
 
-    <span class="c1"># create output pose matrix</span>
-    <span class="n">rotation_matrix</span> <span class="o">=</span> <span class="n">eye_like</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">angle_axis</span><span class="p">,</span> <span class="n">shared_memory</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-    <span class="c1"># fill output matrix with masked values</span>
-    <span class="n">rotation_matrix</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="p">:</span><span class="mi">3</span><span class="p">,</span> <span class="p">:</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">mask_pos</span> <span class="o">*</span> <span class="n">rotation_matrix_normal</span> <span class="o">+</span> <span class="n">mask_neg</span> <span class="o">*</span> <span class="n">rotation_matrix_taylor</span>
+    <span class="c1"># create output pose matrix with masked values</span>
+    <span class="n">rotation_matrix</span> <span class="o">=</span> <span class="n">mask_pos</span> <span class="o">*</span> <span class="n">rotation_matrix_normal</span> <span class="o">+</span> <span class="n">mask_neg</span> <span class="o">*</span> <span class="n">rotation_matrix_taylor</span>
     <span class="k">return</span> <span class="n">rotation_matrix</span>  <span class="c1"># Nx3x3</span></div>
 
 
